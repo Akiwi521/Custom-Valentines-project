@@ -57,11 +57,11 @@ const CONFIG = {
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
-        backgroundStart: "#ffafbd",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#ffc3a0",        // Gradient end (should complement backgroundStart)
-        buttonBackground: "#ff6b6b",     // Button color (should stand out against the background)
+        backgroundStart: "#f0b7b3",      // Gradient start (try pastel colors for a soft look)
+        backgroundEnd: "#791e94",        // Gradient end (should complement backgroundStart)
+        buttonBackground: "#407899",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#ff4757"             // Text color (make sure it's readable!)
+        textColor: "#540b0e"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dp0ma3kde/video/upload/v1739465913/x3sfl7zq6qld9skqqo3b.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dp0ma3kde/video/upload/v1739470948/Jeanette_-_El_Muchacho_de_los_Ojos_Tristes_dezjtm.mp3", // Music streaming URL
         startText: "🎵 Play",        // Button text to start music 
         volume: 1.0                        // Volume level (0.0 to 1.0)
     }
