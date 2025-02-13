@@ -76,10 +76,10 @@ const CONFIG = {
     // Background Music (Optional)
     // Add your own music URL after getting proper licenses
     music: {
-        enabled: false,                     // Music feature is enabled
-        autoplay: true,                    // Try to autoplay (note: some browsers may block this)
+        enabled: true,                     // Music feature is enabled
+        autoplay: false,                    // Try to autoplay (note: some browsers may block this)
         musicUrl: "https://res.cloudinary.com/dp0ma3kde/video/upload/v1739465913/x3sfl7zq6qld9skqqo3b.mp3", // Music streaming URL
-        startText: "🎵 Play Music",        // Button text to start music
+        startText: "🎵 Play",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 1.0                        // Volume level (0.0 to 1.0)
     }
