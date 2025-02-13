@@ -44,7 +44,7 @@ const CONFIG = {
     loveMessages: {
         extreme: "RAHHH CARS 😼😝!!!(that's why we're 🤞🎀)",  // Shows when they go past 5000%
         high: "Pretty valid 🗣❗️❗️",              // Shows when they go past 1000%
-        normal: "Mmmmm okok 🤨"                           // Shows when they go past 100%
+        normal: "Mmmmmmmm okok 🤨"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
@@ -67,10 +67,10 @@ const CONFIG = {
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "15s",           // How long it takes hearts to float up (10-20s recommended)
-        floatDistance: "50px",          // How far hearts move sideways (30-70px recommended)
-        bounceSpeed: "0.5s",            // Speed of bouncing animations (0.3-0.7s recommended)
-        heartExplosionSize: 1.5         // Size of heart explosion effect (1.2-2.0 recommended)
+        floatDuration: "20s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDistance: "65px",          // How far hearts move sideways (30-70px recommended)
+        bounceSpeed: "1s",            // Speed of bouncing animations (0.3-0.7s recommended)
+        heartExplosionSize: 1.7         // Size of heart explosion effect (1.2-2.0 recommended)
     },
 
     // Background Music (Optional)
@@ -78,7 +78,7 @@ const CONFIG = {
     music: {
         enabled: true,                     // Music feature is enabled
         autoplay: true,                    // Try to autoplay (note: some browsers may block this)
-        musicUrl: "https://res.cloudinary.com/dncywqfpb/video/upload/v1738399057/music_qrhjvy.mp3", // Music streaming URL
+        musicUrl: "https://res.cloudinary.com/dp0ma3kde/video/upload/v1739465913/x3sfl7zq6qld9skqqo3b.mp3", // Music streaming URL
         startText: "🎵 Play Music",        // Button text to start music
         stopText: "🔇 Stop Music",         // Button text to stop music
         volume: 0.5                        // Volume level (0.0 to 1.0)
