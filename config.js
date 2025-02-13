@@ -14,7 +14,7 @@ const CONFIG = {
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['💗', '🖤', '🎀', '👻'],  // Heart emojis
+        hearts: ['💗', '🖤', '🎀', '👾'],  // Heart emojis
         jellys : ['🪼', '👾']                       // Cute bear emojis
     },
 
@@ -51,23 +51,23 @@ const CONFIG = {
     celebration: {
         title: "Yipeeeee! Teleport for a free car ! 🎉🐈‍⬛️🖤",
         message: "Ik we can't do much but I still wanted to ask 👻(love you <3)",
-        emojis: "🪼💗🎁💐👾💕"  // These will bounce around
+        emojis: "🪼💗🎁💐👻💕"  // These will bounce around
     },
 
     // Color scheme for the website
     // Use https://colorhunt.co or https://coolors.co to find beautiful color combinations
     colors: {
         backgroundStart: "#f0b7b3",      // Gradient start (try pastel colors for a soft look)
-        backgroundEnd: "#791e94",        // Gradient end (should complement backgroundStart)
+        backgroundEnd: "#540b0e, #791e94",        // Gradient end (should complement backgroundStart)
         buttonBackground: "#407899",     // Button color (should stand out against the background)
         buttonHover: "#ff8787",          // Button hover color (slightly lighter than buttonBackground)
-        textColor: "#540b0e"             // Text color (make sure it's readable!)
+        textColor: "#791e94"             // Text color (make sure it's readable!)
     },
 
     // Animation settings
     // Adjust these if you want faster/slower animations
     animations: {
-        floatDuration: "17s",           // How long it takes hearts to float up (10-20s recommended)
+        floatDuration: "12s",           // How long it takes hearts to float up (10-20s recommended)
         floatDistance: "65px",          // How far hearts move sideways (30-70px recommended)
         bounceSpeed: "1s",            // Speed of bouncing animations (0.3-0.7s recommended)
         heartExplosionSize: 1.7         // Size of heart explosion effect (1.2-2.0 recommended)
