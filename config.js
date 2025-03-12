@@ -42,7 +42,7 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "Yes i for sure do 🗣‼️",  // Shows when they go past 5000%
+        extreme: "Yes I for sure do 🗣‼️",  // Shows when they go past 5000%
         high: "I think so 😛",              // Shows when they go past 1000%
         normal: "Mmmmmmmm idk🤨"                           // Shows when they go past 100%
     },
