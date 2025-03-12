@@ -9,12 +9,12 @@ const CONFIG = {
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "wannabmyvalentine(pls)",
+    pageTitle: "Will you be???",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
     floatingEmojis: {
-        hearts: ['💗', '🖤', '🎀', '👾'],  // Heart emojis
+        hearts: ['💐', '🌹', '🎀', '👾'],  // Heart emojis
         jellys : ['🪼', '👾']                       // Cute bear emojis
     },
 
@@ -22,18 +22,18 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like cats?",                                    // First interaction
+            text: "do you like cats",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No(wrong answer 😾)",                                               // Text for "No" button
-            secretAnswer: "i don't like cats, i love cats !!"           // Secret hover message
+            noBtn: "No(i think you meant yes😞)",                                               // Text for "No" button
+            secretAnswer: "(yes goofy)"           // Secret hover message
         },
         second: {
-            text: "How much do you love cats?",                          // For the love meter
-            startText: "Uhmmmm this much",                                   // Text before the percentage
+            text: "do you have two legs(i think you do)",                          // For the love meter
+            startText: "Uhmmmm maybe",                                   // Text before the percentage
             nextBtn: "Next"                                         // Text for the next button
         },
         third: {
-            text: "Can I be your Valentine ⁉️(willubemine)? 🎀🌹", // The big question!
+            text: "Can I take you out to the spring fling? 💐(pls say yes)", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No(☹️)"                                                 // Text for "No" button
         }
@@ -42,15 +42,15 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "RAHHH CARS 😼😝!!!(that's why we're 🤞🎀)",  // Shows when they go past 5000%
-        high: "Pretty valid 🗣❗️❗️",              // Shows when they go past 1000%
-        normal: "Mmmmmmmm okok 🤨"                           // Shows when they go past 100%
+        extreme: "Yes i for sure do 🗣‼️",  // Shows when they go past 5000%
+        high: "I think so 😛",              // Shows when they go past 1000%
+        normal: "Mmmmmmmm idk🤨"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yipeeeee! Teleport for a free car ! 🎉🐈‍⬛️🖤",
-        message: "Ik we can't do much but I still wanted to ask 👻(love you <3)",
+        title: "Yipeeeee! Idek how to dance gang! 🎉🐈‍⬛️🖤",
+        message: "Ik we've been up and down all day but hopefully you can enjoy urself <3",
         emojis: "🪼💗🎁💐👻💕"  // These will bounce around
     },
 
